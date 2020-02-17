@@ -3,19 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
-# Use Puma as the app server
 gem 'puma'
-# Use SCSS for stylesheets
 gem 'sass-rails'
-
 gem 'uglifier'
-
 gem 'coffee-rails'
-
 gem 'jquery-rails'
-
 # Turbolinks makes navigating your web application faster.
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -29,7 +22,7 @@ gem 'jbuilder'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
+gem 'bootsnap'
 
 group :development, :test do
 gem 'sqlite3'

@@ -219,7 +219,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootsnap (>= 1.4.2)
+  bootsnap
   byebug
   coffee-rails
   guard
