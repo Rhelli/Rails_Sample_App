@@ -25,6 +25,8 @@ Testing with Minitest has also been built upon from the previous iteration of th
 
 ## 🔩 Setup & Usage
 
+[Head here]('https://quiet-sierra-21482.herokuapp.com/') if you want a quick look around the page. If you want a more in depth look at the code and want to tinker, follow the steps below...
+
 ### Setup
 
 If you want to have a poke around and run this project on your system, you'll have to do a little setup first:
