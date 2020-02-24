@@ -10,6 +10,7 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'webpacker'
+gem 'bootstrap-sass'
 # Turbolinks makes navigating your web application faster.
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
