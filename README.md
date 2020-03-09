@@ -52,7 +52,7 @@ If you want to have a poke around and run this project on your system, you'll ha
 ### Usage
 To view the webpage itself, you will first have to start the rails server.
  - Open your terminal and `cd` into the root directory of this repository, wherever it is you downloaded it to. ["Don't know what 'cd' means?"](https://www.macworld.com/article/2042378/master-the-command-line-navigating-files-and-folders.html)
- - Enter the command `rails server` to start the sever. This will start the server and there shouldn't be any errors!
+ - Enter the command `rails server` into your terminal and hit enter to start the sever (make sure you're still at the root of this repository!).
  - Now that you have the server running, open your browser and visit [The Home Page](localhost:3000/) to see the homepage. From there you can follow the links and explore around the webpage!
 
 ## 🤟🏽 Contributions, Issues & Forking
