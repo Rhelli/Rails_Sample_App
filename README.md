@@ -4,6 +4,7 @@ This project is part of a series of projects to be completed by students of [Mic
 
 ### Version History
 As a part of an iteration of project built ontop of one another, you can find specifications about the previous versions below:
+
   v0.1.0 - ['Mostly Static Pages - Chapter 3'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages) - Generation of static and some dynamic pages using Rails. Basic skeleton building of the web app with testing via Minitest and Guard.
 
   v0.2.0 - ['Filling in the Layout - Chapter 5'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/filling_in_the_layout) - Utilisation of the Rails asset pipeline with Bootstrap and SCSS. Generation and routing of the sites pages and links. Testing for site routing added.
