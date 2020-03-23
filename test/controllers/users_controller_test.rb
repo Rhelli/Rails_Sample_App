@@ -47,10 +47,5 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     get users_path
     assert_redirected_to login_url
   end
-
-  test 'Should get index' do
-    get users_path
-    assert_response :success
-  end
 end
 
