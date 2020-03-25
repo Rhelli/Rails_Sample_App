@@ -68,7 +68,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'https://quiet-sierra-21482.herokuapp.com' }
   config.action_mailer.default :charset => 'utf-8'
   ActionMailer::Base.smtp_settings = {
-    :from => 'noreply@example.com'
+    :from => 'noreply@example.com',
     :address => 'smtp.sendgrid.net',
     :port => '587',
     :authentication => :plain,
