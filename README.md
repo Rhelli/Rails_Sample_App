@@ -1,15 +1,33 @@
-# 🔏 Signing Up - A Sample Rails App
+# 🔏 A Sample Rails App - Ruby on Rails
 
 This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
 ### Version History
-As a part of an iteration of project built ontop of one another, you can find specifications about the previous versions below:
+This project follows a series of tutorials released on the ['LearnEnough - Ruby on Rails'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/) website. Each chapter builds upon the last and leads to a fully fledged, secure, industry standard, sample web app. The previous versions of this project included the following:
 
   v0.1.0 - ['Mostly Static Pages - Chapter 3'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages) - Generation of static and some dynamic pages using Rails. Basic skeleton building of the web app with testing via Minitest and Guard.
 
   v0.2.0 - ['Filling in the Layout - Chapter 5'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/filling_in_the_layout) - Utilisation of the Rails asset pipeline with Bootstrap and SCSS. Generation and routing of the sites pages and links. Testing for site routing added.
 
   v0.3.0 - ['Modeling Users - Chapter 6'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/modeling_users) - Generation of user models and preliminary structuring of the sites database. Validations and password security implemented with more tests for each.
+
+  v0.4.0 - ['Sign Up - Chapter 7'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/sign_up) - Through utilising the previously created User models and RoR's form helpers, we can create new users within the database and display the new users welcome messages and their own profile page. Validation is enhanced, gravatars are introduced and greater testing is implemented.
+
+  v0.5.0 - ['Basic Login - Chapter 8'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/basic_login) - Using a newly generated Session Controller, we can now remember a user from one page to the next using temporary cookies and even change what is displayed to the current user. A greater suite of tests are implemented through test-driven development practice.
+
+  v0.6.0 - ['Advanced Login - Chapter 9'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/advanced_login) - Building on the last chapter, we can now implement permanent cookies to perpetuate states beyond the session. In particular, we implement a 'Remember Me' checkbox on the login page, enabling the sample app to remember users whose browsers present this remember token when next visiting.
+
+  v0.7.0 - ['Updating, Showing and Deleting Users'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/updating_and_deleting_users) - In this version, we fill out our remaining RESTful routes available. 
+    - Users can now (safely) edit their own profiles through Patch requests with strong params 
+    - Authorisation is required via before_filters in order to make changes 
+    - Friendly forwarding is implemented
+    - All users are now shown on the index page (with pagination enabled)
+    - Using database seeding, the userbase is now filled out with fake users
+    - Admin users have been created with the ability to delete other users
+
+  v0.8.0 - ['Account Activation'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/account_activation) - Through the user of ActionMailer, we enable the sending of account activation codes. Accounts remain unactivated until the activation_token provided is returned and compared with the activation_digest (and the email address) in the database. Deployment to Heroku and use of SendGrid enable the use of activation emails.
+
+  v.0.9.0 - ['Password Reset - Chapter 12'](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/password_reset) - Using some of the principles established in the previous chapter, we enable password resetting for users with new views and forms. Password reset emails are sent via SendGrid using ActionMailer and the user is required to return the password reset token in order to proceed. Testing is greatly increased to account for the above.
 
 
 ## 🎛️ Version 0.4.0 - The Project Brief
